@@ -1,0 +1,13 @@
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.csprojAssemblyReference.cache
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.AssemblyInfoInputs.cache
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.AssemblyInfo.cs
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.csproj.CoreCompileInputs.cache
+Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.exe
+Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.deps.json
+Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.runtimeconfig.json
+Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.runtimeconfig.dev.json
+Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.dll
+Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.pdb
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.dll
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.pdb
+Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.genruntimeconfig.cache
