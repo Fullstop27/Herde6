@@ -11,3 +11,16 @@ Y:\__Sourcen\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.pdb
 Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.dll
 Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.pdb
 Y:\__Sourcen\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.genruntimeconfig.cache
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.csprojAssemblyReference.cache
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.AssemblyInfoInputs.cache
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.AssemblyInfo.cs
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.csproj.CoreCompileInputs.cache
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.dll
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.pdb
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.exe
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.deps.json
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.runtimeconfig.json
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.runtimeconfig.dev.json
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.dll
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\bin\Debug\netcoreapp3.1\Herde6.pdb
+C:\Users\gkloe\source\repos\Fullstop27\Herde6\Herde6\obj\Debug\netcoreapp3.1\Herde6.genruntimeconfig.cache

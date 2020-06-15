@@ -15,18 +15,34 @@ namespace Herde6
         
         public double x { get; set; }
         public double y { get; set; }
+        public void move() { }
+    }
+
+    public struct Condition
+    {
+        public int Beauty;
+        public int Health;
+        public int Fun;
+        public int Alter;
     }
 
     public interface IAntilope
-
     {
 
-         static enGeschlecht Geschlecht { get; set; }
-        static string name { get; set; }
+        public enGeschlecht Geschlecht { get; }
+        public String Name { get; }
+        public Antilopenmann Vater { get; }
+        public Antilopenfrau Mutter { get; }
+        public int Generation { get; }
+        public Condition Condition { get; }
 
-        void runTo(double angle, double speed, double strecke) { }
-        void runTo(double angle, double speed) { }
-        void runTo(double angle) { }
+           
+
+       /* 
+        public void runTo(double angle, double speed, double strecke) { }
+        public void runTo(double angle, double speed) { }
+        public void runTo(double angle) { }
+       */
 
 
 

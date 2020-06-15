@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\__Sourcen\\Herde6\\Herde6\\Herde6.csproj",
+      "projectUniqueName": "C:\\Users\\gkloe\\source\\repos\\Fullstop27\\Herde6\\Herde6\\Herde6.csproj",
       "projectName": "Herde6",
-      "projectPath": "Y:\\__Sourcen\\Herde6\\Herde6\\Herde6.csproj",
+      "projectPath": "C:\\Users\\gkloe\\source\\repos\\Fullstop27\\Herde6\\Herde6\\Herde6.csproj",
       "packagesPath": "C:\\Users\\gkloe\\.nuget\\packages\\",
-      "outputPath": "Y:\\__Sourcen\\Herde6\\Herde6\\obj\\",
+      "outputPath": "C:\\Users\\gkloe\\source\\repos\\Fullstop27\\Herde6\\Herde6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gkloe\\AppData\\Roaming\\NuGet\\NuGet.Config",
