@@ -96,9 +96,6 @@ namespace Herde6
     {
         public static String CreateName(enGeschlecht sex)
         {
-            //Guid g = Guid.NewGuid();
-            //return g.ToString();
-            
             return Guid.NewGuid().ToString();
         }
 
@@ -112,6 +109,46 @@ namespace Herde6
             }            
             return g;
         }
+
+
+        public static Boolean IsPaarungInzest(Antilopenmann vater, Antilopenfrau mutter)
+        {
+            if (vater == null
+                || vater.Vater == null
+                || vater.Mutter == null
+                || mutter == null
+                || mutter.Mutter == null
+                || mutter.Vater == null)
+            {
+                return false;
+            }
+
+
+            if (vater == mutter.Vater)
+            {
+                return true;
+            }
+            else if (vater.Vater == mutter.Vater){
+                return true;
+            }
+            else if  (mutter == mutter.Mutter)
+            {
+                return true;
+            }
+            else if (mutter.Mutter == mutter.Mutter)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+           
+        }
+
+
+
+
 
         public static Condition CreateConditionOfBaby(Antilopenmann vater, Antilopenfrau mutter)
         {
@@ -137,12 +174,7 @@ namespace Herde6
             return child;
         }
 
-        /*
-        public static String getNameFromREST()
-        {
 
-        }
-        */
 
     }
 

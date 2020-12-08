@@ -12,10 +12,8 @@ namespace Herde6
 
     public struct Position
     {
-        
         public double x { get; set; }
         public double y { get; set; }
-        public void move() { }
     }
 
     public struct Condition
@@ -43,9 +41,6 @@ namespace Herde6
         public void runTo(double angle, double speed) { }
         public void runTo(double angle) { }
        */
-
-
-
 
     }
 }

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3kBdSqmOE4f41rPinsZh43vM2mKXV1YnNynPD5bKC3UN93zSP8hfNtB9oognh7WUhzLVmBLbnc3A9UMEJEmGKQ==",
+  "dgSpecHash": "mBULGsGW6tqsUbxNIbhz2DtxTth2nSNsr2PxpHYceKtndEyvR8RMF8pH1OmAuIP7osbLCu7kGJnKmqS322yC3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\gkloe\\source\\repos\\Fullstop27\\Herde6\\Herde6\\Herde6.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\gkloe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

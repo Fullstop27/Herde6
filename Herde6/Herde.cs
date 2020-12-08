@@ -10,22 +10,26 @@ namespace Herde6
     {
         private List<IAntilope> Tribe = new List<IAntilope>();
 
- 
+
         public Herde()
         {
-            
-            Antilopenfrau urmama;
-            Antilopenmann urvater;
+
+            Antilopenfrau urmama, urmama2;
+            Antilopenmann urvater, urvater2;
             urmama = new Antilopenfrau();
             urvater = new Antilopenmann();
+            urmama2 = new Antilopenfrau();
+            urvater2 = new Antilopenmann();
+
             Tribe.Add(urmama);
+            Tribe.Add(urmama2);
             Tribe.Add(urvater);
+            Tribe.Add(urvater2);
         }
 
         public void AddNewAnimalToTribe(IAntilope newAnimal)
         {
             Tribe.Add(newAnimal);
-
         }
 
         public int GetCount()
@@ -33,69 +37,47 @@ namespace Herde6
             return Tribe.Count;
         }
 
-        public void Paarungszeit(int wunschgroesse)
+        public void Paarungszeit()
         {
-            //List<IAntilope> men;
-               var men = from m in Tribe
+            List<IAntilope> BabyList = new List<IAntilope>();
+
+            var men = from m in Tribe
                       where m.Geschlecht == enGeschlecht.Maennchen
                       select m;
-            foreach (Antilopenmann n in men)
+
+            var women = from m1 in Tribe
+                        where m1.Geschlecht == enGeschlecht.Weibchen
+                        select m1;
+
+
+            foreach (IAntilope n in men)
             {
-                
-                foreach (Antilopenfrau f in GetMother(Tribe))
+                foreach (Antilopenfrau f in women)
                 {
-                    IAntilope b;
-                    b = f.MakeBabyWith(n);
-                    Tribe.Add(b);
+                    if (!exAntilope.IsPaarungInzest(n as Antilopenmann, f))
+                    {
+                        IAntilope b;
+                        b = f.MakeBabyWith(n as Antilopenmann);
+                        BabyList.Add(b);
+                    }
                 }
 
             }
 
-
-
-            /*
-            foreach (IAntilope ant in GetMother())
+            foreach (IAntilope bb in BabyList)
             {
-
+                this.AddNewAnimalToTribe(bb);
             }
-            Tribe.Add(baby);
-            Console.WriteLine("Baby: " + baby.name);
-            */
-        }
-
-
-        /* 
-         * Paarung gibt ein True zurück wenn bei einer Paarung auch was rauskommen würde
-         
-        public Boolean IsPaarungMoeglich(IAntilope vater, IAntilope mutter)
-        {
-            return (vater.Geschlecht == enGeschlecht.Maennchen) &
-                    (mutter.Geschlecht == enGeschlecht.Weibchen);
-        }
-        */
-
-        private IEnumerable<Antilopenmann> GetFather(List<IAntilope> t)
-        {
-            foreach (IAntilope ant in t)
-            {
-                if (ant.Geschlecht == enGeschlecht.Maennchen)
-                {
-                    yield return ant as Antilopenmann;
-                }
-            }
-        }
-
-        private IEnumerable<Antilopenfrau> GetMother(List<IAntilope> t)
-        {
-            foreach (IAntilope ant in t)
-            {
-                if (ant.Geschlecht == enGeschlecht.Weibchen)
-                {
-                    yield return ant as Antilopenfrau;
-                }
-            }
-
         }
 
     }
+
 }
+
+
+
+
+
+
+
+
